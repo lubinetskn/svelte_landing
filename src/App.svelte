@@ -1,11 +1,25 @@
 <script>
-	export let firstText, second;
-	let srcImg="http://latex.numberempire.com/render?{x}_{1,2}=\frac{-b\pm\sqrt{b^2-4ac}}{2a}"
+	import Header from './Header.svelte';
+	import Auto from './Auto.svelte';
+	import Freebet from './Freebet.svelte';
+	import Gadjet from './Gadjet.svelte';
+	import Pari from './Pari.svelte';
+	import Documents from './Documents.svelte';
+	import Banner from './Banner.svelte';
+	import Footer from './Footer.svelte';
 </script>
 
 <style>
-	h1 {
-		color: purple;
+	@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+	.wrapper{
+		margin: 0 auto;
+		background-color: #006237;
+		color: #fff;
+		padding: 16px;
+	}
+	.container{
+		width:1100px;
+		margin: auto
 	}
 
 	.second div{
@@ -22,40 +36,13 @@
 	}
 </style>
 
-<div>
-	<section class="first">
-		<img src="" alt="">
-		<h1>{firstText}</h1>
-	</section>
-
-	<section class="second">
-		<h2>{second.title}</h2>
-		<h3>{second.subTitle}</h3>
-		<img src="" alt="">
-		<h4>Краткая механика:</h4>
-		<ol>
-			{#each second.list as item}
-				<li>{item}</li>
-			{/each}
-		</ol>
-		<div>
-			<h3>Формула расчёта количества купонов:</h3>
-			<img src={srcImg} alt="Корни квадратного уравнения">
-			<h4>Минимальный k = 1,50   Максимальный k = 7,0 копия</h4>
-		</div>
-		<span>Выше коэффициент – больше купонов – больше шансов выиграть авто</span>
-	</section>
-
-	<section class="third">
-		<h2>{third.title}</h2>
-		<h3>{third.subTitle}</h3>
-		<img src="" alt="">
-		<h4>Краткая механика:</h4>
-		<ol>
-			{#each third.list as item}
-				<li>{item}</li>
-			{/each}
-		</ol>
-
-	</section>
-</div>
+<Header/>
+<main class="wrapper">
+	<Auto/>
+	<Freebet/>
+	<Gadjet/>
+	<Pari/>
+	<Documents/>
+	<Banner/>
+</main>	
+<Footer/>

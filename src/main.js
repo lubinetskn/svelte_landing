@@ -3,8 +3,7 @@ import App from './App.svelte';
 const app = new App({
 	target: document.body,
 	props: {
-		firstText: 'Розыгрыши 20 автомобилей,  более 500 гаджетов и более  97 000 000 Р фрибетами!',
-		second: {
+		freebet: {
 			title:'Розыгрыш автомобилей',
 			subTitle:'каждые 3 месяца',
 			img:'',
