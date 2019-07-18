@@ -1,6 +1,8 @@
 <style>
     .banner{
-        background: url('./img/banner-back.jpg')
+        background-image: url('./images/banner-back.jpg');
+        background-size:cover;
+        padding:60px 0 40px;
     }
     h2 {
         font-size: 32px;
@@ -15,6 +17,10 @@
         font-family: "Roboto Condensed";
         font-weight: 700;
         text-align: center;
+        margin-bottom: 20px;
+    }
+    h3 span{
+        color: var(--vlYellow);
     }
     .btns a{
         width: 198px;
@@ -35,9 +41,8 @@
 
 <section class="banner">
     <div class="container">
-        <img src="./img/banner-back.jpg" alt="">
         <h2>Приведите друга на розыгрыш «Вечерняя Лига» и</h2>
-        <h3>удвойте свои фрибеты</h3>
+        <h3>удвойте свои <span>фрибеты</span></h3>
         <div class="btns">
             <a href="#pdf"><span>Подробнее</span></a>
         </div>

@@ -10,30 +10,12 @@
 </script>
 
 <style>
-	@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
 	.wrapper{
 		margin: 0 auto;
-		background-color: #006237;
-		color: #fff;
-		padding: 16px;
-	}
-	.container{
-		width:1100px;
-		margin: auto
+		background-color: var(--vlGreen);
+		color: #fff
 	}
 
-	.second div{
-		border-radius: 6px;
-		background-color: #006237;
-	}
-
-	.second h3{
-		color: #d2d700;
-	}
-
-	.second span{
-		color: #d2d700;
-	}
 </style>
 
 <Header/>
