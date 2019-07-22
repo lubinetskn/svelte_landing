@@ -1,6 +1,7 @@
 <style>
     #gadjet{
         background-color: #083b30;
+        padding-top:30px;
     }
     h2{
         font-size: 44px;
@@ -66,6 +67,16 @@
         line-height: 27px;
         margin-right: 5px;
     }
+    #gadjet .container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .gadjet_head {
+        width: 50%;
+        margin: 0 0 0 auto;
+        padding-left: 1%;
+    }
     .gadjet_text{
         font-size: 24px;
         line-height: 26px;
@@ -73,6 +84,35 @@
         font-weight: 700;
         text-align: center;
         padding: 25px 0;
+        margin: auto;
+    }
+    .gadjet_picture{
+        width: 51%;
+        height: 420px;
+        padding: 0 30px
+    }
+    .gadjet_picture img{
+        height: 100%
+    }
+    .gadjet_list {
+        width: 49%;
+    }
+    .gadjet_list p{
+        font-size: 24px;
+        font-weight: 400;
+        margin: 20px 0;
+    }
+    .gadjet_list li{
+        display: flex;
+        position: relative;
+        padding: 8px 75px;
+        margin: 20px 0;
+        min-height: 60px;
+    }
+    .gadjet_list picture {
+        position: absolute;
+        left: 0;
+        top: 0;
     }
 </style>
 <section id="gadjet">
@@ -82,7 +122,50 @@
             <h3>каждый месяц</h3>
         </div>
         <div class="gadjet_picture">
-            <img src="images/tv.png" alt="">
+            <img src="images/platform.png" alt="">
+        </div>
+        <div class="gadjet_list">
+            <p>Краткая механика:</p>
+            <ol>
+                <li>
+                    <picture>
+                        <img src="images/card.png" alt="">
+                    </picture>
+                    <div>1. Получение специальной карточки в клубе БК «Лига Ставок», участвующем в акции.</div>
+                </li>
+                <li>
+                    <picture>
+                        <img src="images/sticker.png" alt="">
+                    </picture>
+                    <div>2. Получение наклейки на карточку за пари от 1 555 ₽.</div>
+                </li>
+
+                <li>
+                    <picture>
+                        <img src="images/pen.png" alt="">
+                    </picture>
+                    <div>3. Обмен карточки на купоны в день и в клубе проведения розыгрыша.</div>
+                </li>
+
+                <li>
+                    <picture>
+                        <img src="images/baraban.png" alt="">
+                    </picture>
+                    <div>4. Определение победного купона с помощью прозрачного барабана.</div>
+                </li>
+                <li>
+                    <picture>
+                        <img src="images/repeat.png" alt="">
+                    </picture>
+                    <div>5. Возможность обмена гаджета на фрибет, равный стоимости приза.</div>
+                </li>
+                 <li>
+                    <picture>
+                        <img src="images/VIP.png" alt="">
+                    </picture>
+                    <div>Минимальная сумма пари для участия в VIP-розыгрыше — 10 000 ₽.</div>
+                </li>
+            </ol>
         </div>
         <div class="gadjet_formula">
             <div class="text">Формула расчёта количества купонов:</div>

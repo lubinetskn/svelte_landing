@@ -11,7 +11,7 @@
 	.btns li{
 		margin-bottom: 20px;	
 	}
-	.btns li div{
+	.btns li a{
 		display: inline-block;
         border-radius: 5px;
         background-color: #2da736;
@@ -36,10 +36,10 @@
 <section id="documents">
 	<div class="container">
 		<ul class="btns">
-			<li><div><span class="ico ico--pdf"></span>Призовой фонд</div></li>
-			<li><div><span class="ico ico--pdf"></span>КЛУБЫ ПРИЁМА ПАРИ</div></li>
-			<li><div><span class="ico ico--pdf"></span>Календарь розыгрышей</div></li>
-			<li><div><span class="ico ico--pdf"></span>условия акции</div></li>
+			<li><a href="pr.pdf"><span class="ico ico--pdf"></span>Призовой фонд</a></li>
+			<li><a href="pr.pdf"><span class="ico ico--pdf"></span>КЛУБЫ ПРИЁМА ПАРИ</a></li>
+			<li><a href="pr.pdf"><span class="ico ico--pdf"></span>Календарь розыгрышей</a></li>
+			<li><a href="pr.pdf"><span class="ico ico--pdf"></span>условия акции</a></li>
 		</ul>
 	</div>
 </section>
