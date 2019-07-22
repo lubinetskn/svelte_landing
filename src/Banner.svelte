@@ -18,6 +18,7 @@
         font-weight: 700;
         text-align: center;
         margin-bottom: 20px;
+        text-transform: uppercase;
     }
     h3 span{
         color: var(--vlYellow);
@@ -32,7 +33,9 @@
         text-align: center;
         padding-top: 16px;
         box-sizing: border-box;
-
+        background-image: url("images/ico-pdf.png");
+        background-position: 30px center;
+        background-repeat: no-repeat;
     }
     .btns a span{
         color: #fff;

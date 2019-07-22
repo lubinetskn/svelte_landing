@@ -16,53 +16,103 @@
         padding: 2px 4px;
         font-weight: 700;
     }
-    .formula{
+    .gadjet_formula{
         padding: 25px;
         width: 757px;
         height: 120px;
         border-radius: 6px;
         background-color: #006237;
+        display:flex;
+        margin: 0 0 0 auto;
+        align-items: center;
+    }
+    .gadjet_formula .text{
+        font-size: 20px;
+        color: #d2d700;
+        font-weight: 700;
+        align-items: center;
+        width: 250px;
+        padding-right: 40px;
+    }
+    .ball-wrap {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px 0;
+    }
+    .ball-wrap h4{
+        width: 130px;
     }
     .ball {
-    display: flex;
+        display: flex;
     }
-    .text{
+    .ball--round li{
+        font-size: 17px;
+        font-weight: 400;
+        text-align: center;
+        background-color: #2da736;
+        width: 27px;
+        height: 27px;
+        line-height: 27px;
+        margin-right: 5px;
+        border-radius:50%; 
+    }
+    .ball--squere li{
+        font-size: 17px;
+        font-weight: 400;
+        text-align: center;
+        background-color: #2da736;
+        width: 32px;
+        height: 24px;
+        line-height: 27px;
+        margin-right: 5px;
+    }
+    .gadjet_text{
         font-size: 24px;
         line-height: 26px;
         color: #d2d700;
         font-weight: 700;
+        text-align: center;
+        padding: 25px 0;
     }
 </style>
 <section id="gadjet">
     <div class="container">
-        <h2>Розыгрыш гаджетов</h2>
-        <h3>каждый месяц</h3>
-        <img src="images/tv.png" alt="">
-        <div class="formula">
-            <div class="yel">Формула расчёта количества купонов:</div>
-            <div class="">
-                <h4>Наклейки, шт.:</h4>
-                <ul class="ball ball--round">
-                    <li>7</li>
-                    <li>13</li>
-                    <li>18</li>
-                    <li>22</li>
-                    <li>25</li>
-                    <li>27</li>
-                    <li>28</li>
-                </ul>
-                <h4>Купоны, шт.:</h4>
-                <ul class="ball ball--squere">
-                    <li>1</li>
-                    <li>2</li>
-                    <li>3</li>
-                    <li>4</li>
-                    <li>5</li>
-                    <li>6</li>
-                    <li>7</li>
-                </ul>
+        <div class="gadjet_head">
+            <h2>Розыгрыш гаджетов</h2>
+            <h3>каждый месяц</h3>
+        </div>
+        <div class="gadjet_picture">
+            <img src="images/tv.png" alt="">
+        </div>
+        <div class="gadjet_formula">
+            <div class="text">Формула расчёта количества купонов:</div>
+            <div class="ball-group">
+                <div class="ball-wrap">
+                    <h4>Наклейки, шт.:</h4>
+                    <ul class="ball ball--round">
+                        <li>7</li>
+                        <li>13</li>
+                        <li>18</li>
+                        <li>22</li>
+                        <li>25</li>
+                        <li>27</li>
+                        <li>28</li>
+                    </ul>
+                </div>
+                <div class="ball-wrap">
+                    <h4>Купоны, шт.:</h4>
+                    <ul class="ball ball--squere">
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                        <li>5</li>
+                        <li>6</li>
+                        <li>7</li>
+                    </ul>
+                </div>
             </div>
         </div>
-        <div class="text">Больше наклеек – больше купонов – больше шансов выиграть один из гаджетов!</div>
+        <div class="gadjet_text">Больше наклеек – больше купонов – больше шансов выиграть один из гаджетов!</div>
     </div>
 </section>

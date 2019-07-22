@@ -24,6 +24,10 @@
         padding-bottom: 16px;
         box-sizing: border-box;
  		color: #fff;
+
+        background-image: url("images/ico-pdf.png");
+        background-position: 30px center;
+        background-repeat: no-repeat;
     }
     .btns  span{
         color: #fff;
