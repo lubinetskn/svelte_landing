@@ -51,8 +51,9 @@
 
 
 <style>
-    #gadjet{
-        background-color: #083b30;
+    #freebet{
+        background-image: url("images/freebet-back.jpg");
+        background-size: cover;
         padding-top:30px;
     }
     h2{
@@ -69,17 +70,16 @@
         padding: 2px 4px;
         font-weight: 700;
     }
-    .gadjet_formula{
+    .freebet_formula{
         padding: 25px;
         width: 757px;
         height: 120px;
         border-radius: 6px;
         background-color: #006237;
         display:flex;
-        margin: 0 0 0 auto;
         align-items: center;
     }
-    .gadjet_formula .text{
+    .freebet_formula .text{
         font-size: 20px;
         color: #d2d700;
         font-weight: 700;
@@ -87,49 +87,17 @@
         width: 250px;
         padding-right: 40px;
     }
-    .ball-wrap {
-        display: flex;
-        flex-wrap: wrap;
-        margin: 10px 0;
-    }
-    .ball-wrap h4{
-        width: 130px;
-    }
-    .ball {
-        display: flex;
-    }
-    .ball--round li{
-        font-size: 17px;
-        font-weight: 400;
-        text-align: center;
-        background-color: #2da736;
-        width: 27px;
-        height: 27px;
-        line-height: 27px;
-        margin-right: 5px;
-        border-radius:50%; 
-    }
-    .ball--squere li{
-        font-size: 17px;
-        font-weight: 400;
-        text-align: center;
-        background-color: #2da736;
-        width: 32px;
-        height: 24px;
-        line-height: 27px;
-        margin-right: 5px;
-    }
-    #gadjet .container{
+   
+    #freebet .container{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
     }
-    .gadjet_head {
-        width: 50%;
-        margin: 0 0 0 auto;
-        padding-left: 1%;
+    .freebet_head {
+        width: 100%;
+        
     }
-    .gadjet_text{
+    .freebet_text{
         font-size: 24px;
         line-height: 26px;
         color: #d2d700;
@@ -138,45 +106,42 @@
         padding: 25px 0;
         margin: auto;
     }
-    .gadjet_picture{
+    .freebet_picture{
         width: 51%;
         height: 420px;
         padding: 0 30px
     }
-    .gadjet_picture img{
+    .freebet_picture img{
         height: 100%
     }
-    .gadjet_list {
+    .freebet_list {
         width: 49%;
     }
-    .gadjet_list p{
+    .freebet_list p{
         font-size: 24px;
         font-weight: 400;
         margin: 20px 0;
     }
-    .gadjet_list li{
+    .freebet_list li{
         display: flex;
         position: relative;
         padding: 8px 75px;
         margin: 20px 0;
         min-height: 60px;
     }
-    .gadjet_list picture {
+    .freebet_list picture {
         position: absolute;
         left: 0;
         top: 0;
     }
 </style>
-<section id="gadjet">
+<section id="freebet">
     <div class="container">
-        <div class="gadjet_head">
-            <h2>Розыгрыш гаджетов</h2>
-            <h3>каждый месяц</h3>
+        <div class="freebet_head">
+            <h2>Розыгрыш фрибетов</h2>
+            <h3>каждую месяц</h3>
         </div>
-        <div class="gadjet_picture">
-            <img src="images/platform.png" alt="">
-        </div>
-        <div class="gadjet_list">
+        <div class="freebet_list">
             <p>Краткая механика:</p>
             <ol>
                 <li>
@@ -219,35 +184,13 @@
                 </li>
             </ol>
         </div>
-        <div class="gadjet_formula">
-            <div class="text">Формула расчёта количества купонов:</div>
-            <div class="ball-group">
-                <div class="ball-wrap">
-                    <h4>Наклейки, шт.:</h4>
-                    <ul class="ball ball--round">
-                        <li>7</li>
-                        <li>13</li>
-                        <li>18</li>
-                        <li>22</li>
-                        <li>25</li>
-                        <li>27</li>
-                        <li>28</li>
-                    </ul>
-                </div>
-                <div class="ball-wrap">
-                    <h4>Купоны, шт.:</h4>
-                    <ul class="ball ball--squere">
-                        <li>1</li>
-                        <li>2</li>
-                        <li>3</li>
-                        <li>4</li>
-                        <li>5</li>
-                        <li>6</li>
-                        <li>7</li>
-                    </ul>
-                </div>
-            </div>
+        <div class="freebet_picture">
+            <img src="images/freebetd.png" alt="">
         </div>
-        <div class="gadjet_text">Больше наклеек – больше купонов – больше шансов выиграть один из гаджетов!</div>
+        <div class="freebet_formula">
+            <div class="text">Формула расчёта количества купонов:</div>
+
+        </div>
+        <div class="freebet_text">Больше наклеек – больше купонов – больше шансов выиграть один из гаджетов!</div>
     </div>
 </section>
