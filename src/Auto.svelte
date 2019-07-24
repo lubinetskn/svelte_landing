@@ -23,49 +23,21 @@
         height: 120px;
         border-radius: 6px;
         background-color: #006237;
-        display:flex;
         margin: 0 0 0 auto;
-        align-items: center;
     }
     .automobile_formula .text{
         font-size: 20px;
         color: #d2d700;
         font-weight: 700;
         align-items: center;
-        width: 250px;
-        padding-right: 40px;
+        padding-right: 10px;
     }
-    .ball-wrap {
+    .automobile_formula .firstline{
         display: flex;
-        flex-wrap: wrap;
-        margin: 10px 0;
+        align-items: center;
     }
-    .ball-wrap h4{
-        width: 130px;
-    }
-    .ball {
-        display: flex;
-    }
-    .ball--round li{
-        font-size: 17px;
-        font-weight: 400;
+    .automobile_formula p{
         text-align: center;
-        background-color: #2da736;
-        width: 27px;
-        height: 27px;
-        line-height: 27px;
-        margin-right: 5px;
-        border-radius:50%; 
-    }
-    .ball--squere li{
-        font-size: 17px;
-        font-weight: 400;
-        text-align: center;
-        background-color: #2da736;
-        width: 32px;
-        height: 24px;
-        line-height: 27px;
-        margin-right: 5px;
     }
     #automobile .container{
         display: flex;
@@ -156,33 +128,22 @@
             </ol>
         </div>
         <div class="automobile_formula">
-            <div class="text">Формула расчёта количества купонов:</div>
-            <div class="ball-group">
-                <div class="ball-wrap">
-                    <h4>Наклейки, шт.:</h4>
-                    <ul class="ball ball--round">
-                        <li>7</li>
-                        <li>13</li>
-                        <li>18</li>
-                        <li>22</li>
-                        <li>25</li>
-                        <li>27</li>
-                        <li>28</li>
-                    </ul>
-                </div>
-                <div class="ball-wrap">
-                    <h4>Купоны, шт.:</h4>
-                    <ul class="ball ball--squere">
-                        <li>1</li>
-                        <li>2</li>
-                        <li>3</li>
-                        <li>4</li>
-                        <li>5</li>
-                        <li>6</li>
-                        <li>7</li>
-                    </ul>
-                </div>
+            <div class="firstline">
+                <span class="text">Формула расчёта количества купонов:</span> общий k <span class="symbol">*</span>
+                <span>
+                    <table style="border-radius: 50%;text-align:center;">
+                        <tr>
+                            <td rowspan="2"><span style="font-size: 32px;">(</span></td>
+                            <td style="border-bottom:1px solid">сумма пари</td>
+                            <td rowspan="2"><span style="font-size: 32px;">)</span></td>
+                        </tr>
+                        <tr>
+                            <td>2 222 Р</td>
+                        </tr>
+                    </table>
+                </span>
             </div>
+            <p>Минимальный k = 1,50   Максимальный k = 7,0</p>
         </div>
         <div class="automobile_text">Больше наклеек – больше купонов – больше шансов выиграть один из гаджетов!</div>
     </div>

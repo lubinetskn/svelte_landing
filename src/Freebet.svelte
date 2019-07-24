@@ -49,7 +49,6 @@
     <span>Выше коэффициент – больше купонов – больше шансов выиграть авто</span>
 </section> -->
 
-
 <style>
     #freebet{
         background-image: url("images/freebet-back.jpg");
@@ -72,22 +71,30 @@
     }
     .freebet_formula{
         padding: 25px;
-        width: 757px;
+        width: 655px;
         height: 120px;
         border-radius: 6px;
-        background-color: #006237;
-        display:flex;
+        background-color: #034d2f;
+    }
+    .freebet_formula .firstline{
+        display: flex;
         align-items: center;
+    }
+    .symbol{
+        position: relative;
+        padding: 10px;
+        top: 3px;
     }
     .freebet_formula .text{
         font-size: 20px;
         color: #d2d700;
         font-weight: 700;
         align-items: center;
-        width: 250px;
-        padding-right: 40px;
+        padding-right: 10px;
     }
-   
+    .freebet_formula p{
+        text-align: center;
+    }
     #freebet .container{
         display: flex;
         flex-direction: row;
@@ -188,8 +195,22 @@
             <img src="images/freebetd.png" alt="">
         </div>
         <div class="freebet_formula">
-            <div class="text">Формула расчёта количества купонов:</div>
-
+            <div class="firstline">
+                <span class="text">Формула расчёта количества купонов:</span> общий k <span class="symbol">*</span>
+                <span>
+                    <table style="border-radius: 50%;text-align:center;">
+                        <tr>
+                            <td rowspan="2"><span style="font-size: 32px;">(</span></td>
+                            <td style="border-bottom:1px solid">сумма пари</td>
+                            <td rowspan="2"><span style="font-size: 32px;">)</span></td>
+                        </tr>
+                        <tr>
+                            <td>1 111 Р</td>
+                        </tr>
+                    </table>
+                </span>
+            </div>
+            <p>Минимальный k = 1,50   Максимальный k = 7,0</p>
         </div>
         <div class="freebet_text">Больше наклеек – больше купонов – больше шансов выиграть один из гаджетов!</div>
     </div>

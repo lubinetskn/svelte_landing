@@ -25,20 +25,30 @@
         font-family: "Roboto Condensed";
         font-weight: 400;
         text-align: center;
+        width: 695px;
+        margin: 0 auto 10px;
 	}
     h1 span{
         color: var(--vlYellow);
     }
+    section{
+        background: url("images/head-back.jpg");
+        background-size: cover;
+        text-align: center;
+    }
 </style>
 <header>
     <nav>
-        <a href="#auto">Авто</a>
-        <a href="#free">Фрибеты</a>
+        <a href="#gadjet">Авто</a>
+        <a href="#club">Фрибеты</a>
         <a href="#gadjet">Гаджеты</a>
         <a href="#club">Клубы</a>
     </nav>
 </header>
 <section>
-    <img src="images/car.png" alt="">
-    <h1>Розыгрыши <span>20 автомобилей</span>,  более <span>500 гаджетов</span> и более <span>97 000 000 Р фрибетами!</span></h1>
+    <div class="container">
+        <div class="head"><img src="images/logo.png" width="630" alt=""></div>
+        <h1>Розыгрыши <span>20 автомобилей</span>,  более <span>500 гаджетов</span> и более <span>97 000 000 Р фрибетами!</span></h1>
+        <img src="images/Car-head.png" alt="">
+    </div>
 </section>
