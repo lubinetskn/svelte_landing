@@ -39,7 +39,7 @@
     .automobile_formula p{
         text-align: center;
     }
-    #automobile .container{
+    #automobile .page__container{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -88,7 +88,7 @@
     }
 </style>
 <section id="automobile">
-    <div class="container">
+    <div class="page__container">
         <div class="automobile_head">
             <h2>Розыгрыш автомобилей</h2>
             <h3>каждые 3 месяца</h3>

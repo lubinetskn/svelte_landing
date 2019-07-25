@@ -1,8 +1,9 @@
 <style>
-    .banner{
+    #banner{
         background-image: url('./images/banner-back.jpg');
         background-size:cover;
-        padding:60px 0 40px;
+        padding:100px 0 40px;
+        min-height:420px;
     }
     h2 {
         font-size: 32px;
@@ -42,8 +43,8 @@
     }
 </style>
 
-<section class="banner">
-    <div class="container">
+<section id="banner" class="page__body">
+    <div class="page__container">
         <h2>Приведите друга на розыгрыш «Вечерняя Лига» и</h2>
         <h3>удвойте свои <span>фрибеты</span></h3>
         <div class="btns">

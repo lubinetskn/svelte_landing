@@ -19,9 +19,17 @@
         line-height: 24px;
         padding: 16px;
     }
+    @media (max-width: 1000px) {
+        #pari ul {
+            flex-flow: wrap;
+        }
+        #pari ul li{
+             width: 50%;
+        }
+    }
 </style>
 <section id="pari">
-    <div class="container">
+    <div class="page__container">
         <h2>Пари, участвующие в розыгрышах</h2>
         <ul>
             <li>
@@ -48,7 +56,7 @@
                 </picture>
                 <div>Пари, заключённые с использованием фрибетов, в акции не участвуют</div>
             </li>
-            <li>
+            <li class="hide-tablet">
                 <picture>
                     <img src="images/pari5.png" alt="">
                 </picture>

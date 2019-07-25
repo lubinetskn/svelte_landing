@@ -10,7 +10,7 @@
 </script>
 
 <style>
-	.wrapper{
+	.page{
 		margin: 0 auto;
 		background-color: var(--vlGreen);
 		color: #fff
@@ -19,7 +19,7 @@
 </style>
 
 <Header/>
-<main class="wrapper">
+<main class="page">
 	<Auto/>
 	<Freebet/>
 	<Gadjet/>

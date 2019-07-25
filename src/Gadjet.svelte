@@ -67,7 +67,7 @@
         line-height: 27px;
         margin-right: 5px;
     }
-    #gadjet .container{
+    #gadjet .page__container{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -97,12 +97,12 @@
     .gadjet_list {
         width: 49%;
     }
-    .gadjet_list p{
+    .gadjet_list p {
         font-size: 24px;
         font-weight: 400;
         margin: 20px 0;
     }
-    .gadjet_list li{
+    .gadjet_list li h3 {
         display: flex;
         position: relative;
         padding: 8px 75px;
@@ -114,9 +114,12 @@
         left: 0;
         top: 0;
     }
+    @media (max-width: 1000px) {
+        
+    }
 </style>
 <section id="gadjet">
-    <div class="container">
+    <div class="page__container">
         <div class="gadjet_head">
             <h2>Розыгрыш гаджетов</h2>
             <h3>каждый месяц</h3>

@@ -95,7 +95,7 @@
     .freebet_formula p{
         text-align: center;
     }
-    #freebet .container{
+    #freebet .page__container{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -143,7 +143,7 @@
     }
 </style>
 <section id="freebet">
-    <div class="container">
+    <div class="page__container">
         <div class="freebet_head">
             <h2>Розыгрыш фрибетов</h2>
             <h3>каждую месяц</h3>

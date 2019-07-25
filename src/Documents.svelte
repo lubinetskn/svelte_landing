@@ -31,10 +31,23 @@
     }
     .btns  span{
         color: #fff;
+	}
+	
+	@media (max-width: 1000px) {
+        .btns{
+    		flex-flow: wrap;
+		}
+		.btns li{
+			width: 50%;
+			text-align: center;
+		}
+		.btns li a{
+			width:240px;
+		}
     }
 </style>
 <section id="documents">
-	<div class="container">
+	<div class="page__container">
 		<ul class="btns">
 			<li><a href="pr.pdf"><span class="ico ico--pdf"></span>Призовой фонд</a></li>
 			<li><a href="pr.pdf"><span class="ico ico--pdf"></span>КЛУБЫ ПРИЁМА ПАРИ</a></li>

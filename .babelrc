@@ -1,38 +1,15 @@
 {
-  "env": {
-    "development": {
-      "presets": [
-        ["env", {
-          "debug": true,
-          "modules": false,
-          "targets": { "browsers": "ie >= 10" },
-          "include": ["transform-es2015-classes"],
-          "useBuiltIns": true
-        }],
-        "stage-1"
-      ],
-      "plugins": [
-        "transform-class-properties",
-        "transform-object-rest-spread",
-        "transform-es5-property-mutators"
-      ]
-    },
-    "production": {
-      "presets": [
-        ["env", {
-          "debug": false,
-          "modules": false,
-          "targets": { "browsers": "ie >= 10" },
-          "include": ["transform-es2015-classes"],
-          "useBuiltIns": true
-        }],
-        "stage-1"
-      ],
-      "plugins": [
-        "transform-class-properties",
-        "transform-object-rest-spread",
-        "transform-es5-property-mutators"
-      ]
-    }
-  }
+  "presets": [
+      ["@babel/preset-env", {
+          "debug"           : false,
+          "modules"         : false,
+          "shippedProposals": true,
+          "useBuiltIns"     : false,
+          "targets"         : { "browsers": ["last 3 versions", "ie >= 11"] }
+      }]
+  ],
+  "plugins": [
+      ["@babel/plugin-proposal-decorators", { "legacy": true }],
+      ["@babel/plugin-proposal-class-properties", { "loose" : true }]
+  ]
 }

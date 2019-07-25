@@ -67,7 +67,13 @@ button:focus {
 	border-color: #666;
 }
 
-.container{
-	width:1200px;
+.page__container{
+	max-width:1200px;
 	margin: auto
+}
+
+@media (max-width: 1000px) {
+	.hide-tablet{
+		display: none;
+	}
 }
