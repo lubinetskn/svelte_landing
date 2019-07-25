@@ -57,7 +57,7 @@
         margin-right: 5px;
         border-radius:50%; 
     }
-    .ball--squere li{
+    .ball--square li{
         font-size: 17px;
         font-weight: 400;
         text-align: center;
@@ -115,7 +115,58 @@
         top: 0;
     }
     @media (max-width: 1000px) {
-        
+        #gadjet .page__container{
+            align-items: center;
+        }
+        #gadjet{
+            padding-left: 16px;
+            padding-right: 16px;
+         }
+        .gadjet_head {
+            width: 100%;
+            margin: 0;
+        }
+        .gadjet_formula{
+            width: 50%;
+            order: 1;
+            overflow:hidden;
+            margin: 0;
+            flex-flow: column;
+            padding: 20px 10px;
+            align-items: flex-start;
+        }
+        .gadjet_formula .text{
+            width:auto;
+            padding-right: 0;
+            font-size: 18px;
+        }
+        .gadjet_picture{
+            order:2;
+            height: auto;
+            width: 50%;
+            align-items: center;
+            vertical-align: middle;
+        }
+        .gadjet_picture img{
+            height: auto;
+        }
+        .gadjet_list{
+            order:4;
+        }
+        .gadjet_text{
+            order: 5;
+        }
+        .ball-wrap h4{
+            width: 90px;
+            font-size: 14px;
+        }
+        .ball--square li{
+            font-size:12px;
+            width:26px;
+        }
+        .ball--round li{
+            width:22px;
+        }
     }
 </style>
 <section id="gadjet">
@@ -187,7 +238,7 @@
                 </div>
                 <div class="ball-wrap">
                     <h4>Купоны, шт.:</h4>
-                    <ul class="ball ball--squere">
+                    <ul class="ball ball--square">
                         <li>1</li>
                         <li>2</li>
                         <li>3</li>
